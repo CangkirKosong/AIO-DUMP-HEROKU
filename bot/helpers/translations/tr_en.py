@@ -55,7 +55,7 @@ Qᴜᴀʟɪᴛʏ : {}
     ALBUM_TEMPLATE = """
 💽 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {title}
 🗣 <b>ᴀʀᴛɪꜱᴛ :</b> {artist}
-📆 <b>Release Date :</b> {date}
+📆 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {date}
 🎧 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {totaltracks}
 ✅ <b>Qᴜᴀʟɪᴛʏ :</b> {quality}
 📡 <b>Platform :</b> {provider}
