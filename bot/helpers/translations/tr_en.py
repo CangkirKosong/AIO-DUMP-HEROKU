@@ -6,10 +6,10 @@ class EN(object):
 # BASICS
 #
 #----------------
-    WELCOME_MSG = "Hello {} Sir"
-    START_DOWNLOAD = "Starting to download..........."
-    ANTI_SPAM_WAIT = "Wait for the current task to complete!"
-    TASK_COMPLETED = "Download Finished"    
+    WELCOME_MSG = "👋🏽 𝐇𝐢 {}"
+    START_DOWNLOAD = "⏬ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠.."
+    ANTI_SPAM_WAIT = "⛔️ 𝗪𝐚𝐢𝐭 𝐓𝐨 𝐓𝐚𝐬𝐤 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞!"
+    TASK_COMPLETED = "✅ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝"    
 
 
 
@@ -18,23 +18,23 @@ class EN(object):
 # AUTHENTICATIONS
 #
 #----------------
-    CHAT_AUTH_SUCCESS = "Successfully authed {0} <code>{1}</code>"
-    ADD_ADMIN_SUCCESS = "Successfully added {} as an admin"
-    NO_ID_TO_AUTH = "No ID provided to add!"
+    CHAT_AUTH_SUCCESS = "✅ Successfully authed {0} <code>{1}</code>"
+    ADD_ADMIN_SUCCESS = "✅ Successfully added {} as an admin"
+    NO_ID_TO_AUTH = "⛔️ No ID provided to add!"
     # TIDAL
-    TIDAL_NOT_AUTH = "No Tidal Logins Given."
+    TIDAL_NOT_AUTH = "❌ 𝗡𝗢 𝗧𝗜𝗗𝗔𝗟 𝗟𝗢𝗚𝗜𝗡"
     TIDAL_AUTH_NEXT_STEP = "Go to {0} within the next {1} to complete tidal authentication."
-    TIDAL_AUTH_SUCCESS = "Tidal authentication successful.\n\nIt is now valid for {}"
-    TIDAL_ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
+    TIDAL_AUTH_SUCCESS = "✅ Tidal authentication successful.\n\nIt is now valid for {}"
+    TIDAL_ALREADY_AUTH = "✅ Your authentication is already done.\nIts is valid for {}"
     TIDAL_API_KEY_CHANGED = "Successfully updated the API Key to {} - {}"
     # KKBOX
-    KKBOX_NOT_AUTH = "KKBOX account credentials not given or subcription expired"
+    KKBOX_NOT_AUTH = "❌ KKBOX account credentials not given or subcription expired"
     # DEEZER
-    DEEZER_NOT_AUTH = "Deezer credentials not provided"
+    DEEZER_NOT_AUTH = "❌ Deezer credentials not provided"
     # QOBUZ
-    QOBUZ_NOT_AUTH = "Qobuz credentials not provided"
+    QOBUZ_NOT_AUTH = "❌ Qobuz credentials not provided"
     # SPOTIFY
-    SPOTIFY_NOT_AUTH = "Spotify credentials not provided"
+    SPOTIFY_NOT_AUTH = "❌ Spotify credentials not provided"
 
 
 
@@ -43,54 +43,52 @@ class EN(object):
 # MUSIC DETAILS - TELEGRAM
 #
 #----------------
-    USER_MENTION_ALBUM = "❤️ <b>Requested by :</b> {}"
-    USER_MENTION_TRACK = "Requested by {}"
+    USER_MENTION_ALBUM = "<b>ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :</b> {}"
+    USER_MENTION_TRACK = "<b>ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ <b>{}"
 
     # TIDAL
     TIDAL_ALBUM_DETAILS = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
-🕒 <b>Duration :</b> {4}
-🔢 <b>Number of Volumes :</b> {5}
+💽 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+📀 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
 """
     # KKBOX
     KKBOX_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
+🎶 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+📀 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
 """
 
     # QOBUZ
     QOBUZ_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
+<b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+<b>ᴀʀᴛɪꜱᴛ :</b> {1}
+<b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+<b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
 """
 
     
     # DEEZER
     DEEZER_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-🔢 <b>Total Tracks :</b> {3}
+🎶 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+🔢 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
 """
 
 
     # SPOTIFY
     SPOTIFY_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-🔢 <b>Total Tracks :</b> {3}
+🎶 ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+🔢 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
 """
 
 
-    QUALITY_ADDON = "💫 <b>Quality :</b> {} \n"
+    QUALITY_ADDON = "<b>Qᴜᴀʟɪᴛʏ :</b> {}\n"
 
     
 
