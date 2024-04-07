@@ -58,9 +58,9 @@ Qᴜᴀʟɪᴛʏ : {}
 📆 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {date}
 🎧 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {totaltracks}
 ✅ <b>Qᴜᴀʟɪᴛʏ :</b> {quality}
-📡 <b>Platform :</b> {provider}
-🅴 <b>Explicit :</b> {explicit}
-✨️ <b>Genre :</b> {genre}
+📡 <b>ᴘʟᴀᴛꜰᴏʀᴍ :</b> {provider}
+🅴 <b>ᴇxᴘʟɪᴄɪᴛ :</b> {explicit}
+✨️ <b>ɢᴇɴʀᴇ :</b> {genre}
 """
 
     # The caption on the uploaded audio file in Telegram
