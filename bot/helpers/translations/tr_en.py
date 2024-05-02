@@ -54,7 +54,7 @@ Qᴜᴀʟɪᴛʏ : {}
 #----------------
     ALBUM_TEMPLATE = """
 ● <b>ᴀʟʙᴜᴍ :</b> <code>{title}</code>
-● <b>ᴀʀᴛɪꜱᴛ :</b> <code>artist}</code>
+● <b>ᴀʀᴛɪꜱᴛ :</b> <code>{artist}</code>
 ● <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> <code>{date}</code>
 ● <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> <code>{totaltracks}</code>
 ● <b>Qᴜᴀʟɪᴛʏ :</b> <code>{quality}</code>
