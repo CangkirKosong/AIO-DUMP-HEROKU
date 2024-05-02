@@ -6,7 +6,7 @@ class EN(object):
 # BASICS
 #
 #----------------
-    WELCOME_MSG = "𝐇𝐢 {}\n Use /dl [url]"
+    WELCOME_MSG = "𝐇𝐢 {}\n Use /d [url]"
     START_DOWNLOAD = "Please Wait..."
     ANTI_SPAM_WAIT = "⛔️ 𝗪𝐚𝐢𝐭 𝐓𝐨 𝐓𝐚𝐬𝐤 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞!"
     TASK_COMPLETED = "ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴘʟᴇᴛᴇᴅ\n@jalan_tikuz"
