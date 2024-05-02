@@ -6,10 +6,10 @@ class EN(object):
 # BASICS
 #
 #----------------
-    WELCOME_MSG = "👋🏽 𝐇𝐢 {}"
-    START_DOWNLOAD = "⏬ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠.."
+    WELCOME_MSG = "𝐇𝐢 {}\n Use /dl [url]"
+    START_DOWNLOAD = "Please Wait..."
     ANTI_SPAM_WAIT = "⛔️ 𝗪𝐚𝐢𝐭 𝐓𝐨 𝐓𝐚𝐬𝐤 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞!"
-    TASK_COMPLETED = "✅ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝"
+    TASK_COMPLETED = "ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴘʟᴇᴛᴇᴅ\n@jalan_tikuz"
     SONG_COPY_EXIST = 'Song already downloaded exist'
     SONG_COPY_EXIST_INFO = """
 <b>ITEM NO - {}</b>
@@ -53,14 +53,14 @@ Qᴜᴀʟɪᴛʏ : {}
 #
 #----------------
     ALBUM_TEMPLATE = """
-💽 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {title}
-🗣 <b>ᴀʀᴛɪꜱᴛ :</b> {artist}
-📆 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {date}
-🎧 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {totaltracks}
-✅ <b>Qᴜᴀʟɪᴛʏ :</b> {quality}
-📡 <b>ᴘʟᴀᴛꜰᴏʀᴍ :</b> {provider}
-🅴 <b>ᴇxᴘʟɪᴄɪᴛ :</b> {explicit}
-✨️ <b>ɢᴇɴʀᴇ :</b> {genre}
+● <b>ᴀʟʙᴜᴍ :</b> <code>{title}</code>
+● <b>ᴀʀᴛɪꜱᴛ :</b> <code>artist}</code>
+● <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> <code>{date}</code>
+● <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> <code>{totaltracks}</code>
+● <b>Qᴜᴀʟɪᴛʏ :</b> <code>{quality}</code>
+● <b>ᴘʟᴀᴛꜰᴏʀᴍ :</b> <code>{provider}</code>
+● <b>ᴇxᴘʟɪᴄɪᴛ :</b> <code>{explicit}</code>
+
 """
 
     # The caption on the uploaded audio file in Telegram
