@@ -8,7 +8,7 @@ class EN(object):
 #----------------
     WELCOME_MSG = "𝐇𝐢 {}\n Use /d [url]"
     START_DOWNLOAD = "Please Wait..."
-    ANTI_SPAM_WAIT = "⛔️ 𝗪𝐚𝐢𝐭 𝐓𝐨 𝐓𝐚𝐬𝐤 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞!"
+    ANTI_SPAM_WAIT = "⛔️ Wait to task completed..!"
     TASK_COMPLETED = "ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴘʟᴇᴛᴇᴅ\n@jalan_tikuz"
     SONG_COPY_EXIST = 'Song already downloaded exist'
     SONG_COPY_EXIST_INFO = """
@@ -65,7 +65,7 @@ Qᴜᴀʟɪᴛʏ : {}
 
     # The caption on the uploaded audio file in Telegram
     # Keep it blank for no captions
-    TRACK_TEMPLATE = ""
+    TRACK_TEMPLATE = "<code>{title}</code>\n<code>{quality}</code>"
 
     
 
